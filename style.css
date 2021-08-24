@@ -104,3 +104,6 @@ p {
 .selected {
   font-weight: 700;
 }
+.selected img {
+  rotate: 180deg;
+}
