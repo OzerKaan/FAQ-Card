@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  z-index: 0;
+  font-family: "Kumbh Sans";
+}
+
+.mainCard {
+  display: flex;
+  background-color: white;
+  background-image: url("/images/bg-pattern-desktop.svg");
+  background-position: 1254% 67.7%;
+  background-repeat: no-repeat;
+  width: 920px;
+  height: 509px;
+  border-radius: 23px;
+  box-shadow: 0 30px 50px 1px hsla(240, 42%, 13%, 0.39);
+  z-index: 1;
+}
+
+.mainCard .images {
+  width: 50%;
+  height: 100%;
+}
+
+.images .box-image {
+  position: fixed;
+  top: 45.6%;
+  left: 20%;
+  z-index: 3;
+}
+
+.images .woman-image {
+  position: fixed;
+  max-width: 388.5px;
+  height: 37.1%;
+  top: 31.75%;
+  left: 25%;
+  z-index: 2;
+  object-fit: cover;
+  object-position: right;
+}
+.faq-texts {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.faq-texts h1 {
+  font-weight: 700;
+  margin-top: 63px;
+  margin-left: 16px;
+  letter-spacing: -0.5px;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  width: 74.5%;
+  text-align: left;
+  margin-left: 12.5px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(237, 12%, 33%);
+  font-family: "Kumbh Sans";
+  letter-spacing: 0.05px;
+}
+
+hr {
+  margin-left: 14.5px;
+  margin-top: 15px;
+  margin-bottom: -1px;
+  color: hsla(240, 4%, 91%, 0.226);
+  width: 76.3%;
+  align-self: left;
+}
+
+button img {
+  align-self: center;
+  margin-right: 1.2px;
+}
+
+p {
+  font-size: 12px;
+  width: 74.5%;
+  margin-left: 15px;
+  line-height: 18px;
+  margin-top: 8px;
+  letter-spacing: 0.05px;
+  color: hsl(240, 6%, 50%);
+  margin-bottom: 3px;
+}
+
+.hidden {
+  display: none;
+}
+.selected {
+  font-weight: 700;
+}
